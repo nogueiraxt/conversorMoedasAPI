@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conversor Cripto</title>
+</head>
+<body>
+    <div class="container">
+        <div class="crypto-container" id="criptomoedaCard">
+            <h2 id="nomeCriptomoeda"></h2>
+            <p id="siglaCriptomoeda"></p>
+            <p id="valorCriptomoeda"></p>
+            <p id="dataAtual"></p>
+        </div>
+
+        <div class="input-container">
+            <label for="criptomoedaSelect">Selecione uma Criptomoeda:</label>
+            <select id="criptomoedaSelect"></select>
+            
+            <label for="quantidadeInput">Insira o Valor em USD:</label>
+            <input type="number" id="quantidadeInput" placeholder="Quantidade em USD">
+            
+            <button id="converterButton">Converter</button>
+            
+            <div id="resultadoConversao"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
